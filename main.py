@@ -1,3 +1,6 @@
-test_msg = 'test message to the user'
+test_msg: str = ''
 
-print(test_msg)
+if not test_msg:
+    print('no message defined')
+else:
+    print(test_msg)
