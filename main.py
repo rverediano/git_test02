@@ -1,0 +1,1 @@
+test_msg = 'test message to the user'
