@@ -1,0 +1,22 @@
+# CODEOWNERS
+# This file defines who owns which parts of the codebase.
+# Each line is a file pattern followed by one or more GitHub usernames or teams.
+# GitHub will automatically request reviews from the listed owners.
+
+# Default owner for everything in the repo
+*       @your-username
+
+# Specific directories
+/docs/          @doc-writer
+/frontend/      @frontend-dev @ui-team
+/backend/       @backend-dev
+
+# Specific file types
+*.js            @javascript-expert
+*.py            @python-team
+*.md            @tech-writer
+
+# Specific files
+/.github/workflows/ci.yml   @devops-team
+/README.md                  @project-lead
+/LICENSE                    @legal-team
